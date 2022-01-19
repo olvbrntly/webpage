@@ -51,6 +51,7 @@ body{
     width:1000px;
     height: 500px;
     margin:auto;
+    background-color: rgb(255, 254, 254);
 }
 
 .intro .heading{
@@ -84,7 +85,41 @@ body{
     
 }
 
+.email{
+    display:flex;
+    justify-content: center;
+    gap:100px;
+    background-color: rgb(20, 88, 46);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
+.left-email{
+    display:flex;
+    flex-direction: column;
+    width: 300px;
+}
 
-    
+.left-email p{
+    margin:5px;
+    text-align:center;
+    font-size:20px;
+    color: rgb(255, 254, 254);
+}
 
+.right-email{
+    display:flex;
+    text-align:center;
+}
+
+.email-fill{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    font-size: 18px;
+    gap:10px;
+}
+
+.email-fill label{
+    color:rgb(255, 254, 254)
+}
